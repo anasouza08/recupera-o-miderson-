@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2025 - Festejando a Conexão Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Agrinho 2025</h1>
+    <p>Festejando a Conexão Campo e Cidade</p>
+  </header>
+
+  <main>
+    <!-- Seção inicial -->
+    <section class="intro">
+      <img src="assets/conexao.svg" alt="Conexão Campo e Cidade">
+      <p>
+        O programa Agrinho 2025 celebra a união entre o campo e a cidade, mostrando
+        como a cooperação entre eles fortalece a sociedade, gera desenvolvimento e
+        promove a sustentabilidade.
+      </p>
+    </section>
+
+    <!-- Campo -->
+    <section class="campo">
+      <img src="assets/campo.svg" alt="Campo">
+      <h2>O Valor do Campo</h2>
+      <p>
+        No campo nasce a produção de alimentos que chega à mesa da cidade. O trabalho
+        rural envolve tradição, cultura e inovação tecnológica.
+      </p>
+    </section>
+
+    <!-- Cidade -->
+    <section class="cidade">
+      <img src="assets/cidade.svg" alt="Cidade">
+      <h2>O Papel da Cidade</h2>
+      <p>
+        A cidade transforma e distribui os produtos do campo. Além disso, oferece
+        serviços, educação e tecnologia que retornam para apoiar o meio rural.
+      </p>
+    </section>
+
+    <!-- Gráfico -->
+    <section class="grafico">
+      <h2>Campo e Cidade em Números</h2>
+      <canvas id="chart" width="400" height="200"></canvas>
+    </section>
+
+    <!-- Quiz -->
+    <section class="quiz">
+      <h2>Quiz do Agrinho</h2>
+      <p>Qual é a principal ligação entre campo e cidade?</p>
+      <button onclick="responderQuiz('errado')">Somente comércio</button>
+      <button onclick="responderQuiz('certo')">Cooperação e Sustentabilidade</button>
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto desenvolvido para o Agrinho 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
